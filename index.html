@@ -3,54 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jackass Meshworks</title>
-  <style>
-    :root {
-      --olive: #44542d;
-      --warm-gray: #726e63;
-      --tan: #f9eed2;
-    }
+  <title>JM Logo Animation</title>
 
+  <style>
     body {
       margin: 0;
       padding: 0;
-      background-color: var(--tan);
-      color: var(--olive);
-      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f4e7d3; /* your tan background */
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      text-align: center;
+      overflow: hidden;
     }
 
     .logo {
-      width: 260px;
-      margin-bottom: 0.5rem;
-    }
-
-    h2 {
-      font-size: 1.2rem;
-      font-weight: 400;
-      color: var(--warm-gray);
-      margin-top: 0.25rem;
-    }
-
-    footer {
-      position: absolute;
-      bottom: 1rem;
-      font-size: 0.9rem;
-      color: var(--warm-gray);
+      width: 320px;      /* adjust as needed */
+      height: auto;
+      image-rendering: crisp-edges;
+      image-rendering: -webkit-optimize-contrast;
     }
   </style>
 </head>
+
 <body>
-
-  <img class="logo" src="assets/JM_logo_ani.png" alt="JM Logo">
-
-  <h2>Irreverent craftsmanship. Serious meshwork.</h2>
-  <footer>© 2026 Jackass Meshworks</footer>
-
+  <img class="logo" src="assets/JM_logo_ani.png" alt="JM Logo Animation">
 </body>
 </html>
