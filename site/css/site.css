@@ -138,8 +138,12 @@ main {
 .b-ear-l  { transform-origin: 88% 92%; animation: ear-l-loop 7s .15s infinite backwards; }
 .b-ear-r  { transform-origin: 8% 88%;  animation: ear-r-loop 7s .15s infinite backwards; }
 .b-lids   { opacity: 0; animation: blink-loop 7s .15s infinite backwards; }
-.badge:hover .b-ear-l { animation: flick-l .45s ease-in-out; }
-.badge:hover .b-ear-r { animation: flick-r .45s .05s ease-in-out; }
+/* The hover flick lives on an inner layer, so it never restarts the ears' loop
+   (restarting it put the ears out of step with the body). */
+.b-ear-l .b-flick { transform-origin: 88% 92%; }
+.b-ear-r .b-flick { transform-origin: 8% 88%; }
+.badge:hover .b-ear-l .b-flick { animation: flick-l .45s ease-in-out; }
+.badge:hover .b-ear-r .b-flick { animation: flick-r .45s .05s ease-in-out; }
 
 @keyframes pop { from { transform: scale(.7); opacity: 0; } to { transform: none; opacity: 1; } }
 @keyframes rise-loop {

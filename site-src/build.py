@@ -138,8 +138,8 @@ def badge():
       <g class="b-circle"><circle cx="{c['cx']}" cy="{c['cy']}" r="{(c['r']+c['R'])/2}" fill="#44542d" stroke="#000" stroke-width="{c['R']-c['r']+6}"/></g>
       <g clip-path="url(#badge-clip)"><g class="b-rise">
         {part('neck')}
-        <g class="b-ear-l">{part('ear-l')}</g>
-        <g class="b-ear-r">{part('ear-r')}</g>
+        <g class="b-ear-l"><g class="b-flick">{part('ear-l')}</g></g>
+        <g class="b-ear-r"><g class="b-flick">{part('ear-r')}</g></g>
         {part('head')}
         {part('tuft')}
         {part('lids', 'b-lids')}
