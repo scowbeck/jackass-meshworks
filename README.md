@@ -48,7 +48,7 @@ The same seed, Max Count, settings and surface always produce the same clones. T
 
 ## Requirements
 
-- **Cinema 4D 2026**
+- **Cinema 4D 2026 or 2027** (this build was tested in 2027)
 - **Windows** (macOS hasn't been tested yet; reports welcome)
 - No other plugins or libraries needed.
 
