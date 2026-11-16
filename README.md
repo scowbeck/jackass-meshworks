@@ -48,8 +48,8 @@ The same seed, Max Count, settings and surface always produce the same clones. T
 
 ## Requirements
 
-- **Cinema 4D:** <!-- CONFIRM: e.g. 2026 (tested) --> 2026
-- **Windows** <!-- CONFIRM: and/or macOS -->
+- **Cinema 4D 2026**
+- **Windows** (macOS hasn't been tested yet; reports welcome)
 - No other plugins or libraries needed.
 
 ## Install
