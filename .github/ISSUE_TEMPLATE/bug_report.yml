@@ -1,0 +1,54 @@
+name: Bug report
+description: Something in CloneSensor isn't working the way it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing CloneSensor! The more detail you give, the faster it gets fixed.
+        Before posting, try quitting Cinema 4D completely and starting it again.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect to see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Add CloneSensor from Extensions
+        2. Link a plane as Surface, parent a chair under it
+        3. Press Seating, then Fill Surface
+        4. ...
+    validations:
+      required: true
+  - type: input
+    id: c4d-version
+    attributes:
+      label: Cinema 4D version
+      description: Help → About shows it, e.g. 2026.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+    validations:
+      required: true
+  - type: input
+    id: cs-version
+    attributes:
+      label: CloneSensor version
+      value: 1.0.0-beta
+  - type: textarea
+    id: details
+    attributes:
+      label: Screenshots, scene file or Console output
+      description: Drag files in here. A small .c4d scene that shows the problem helps a lot. Window → Console shows any Python errors.

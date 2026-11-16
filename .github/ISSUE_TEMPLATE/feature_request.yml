@@ -1,0 +1,16 @@
+name: Feature idea
+description: Suggest a feature or a workflow CloneSensor should handle.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like CloneSensor to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What are you working on when you need it?
+      description: A short description of the scene or job helps decide how it should work.

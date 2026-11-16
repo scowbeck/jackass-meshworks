@@ -1,0 +1,6 @@
+# Keep readable plugin source out of this public repo. Only the encrypted release zip is published (under Releases).
+*.pyp
+*.zip
+__pycache__/
+.DS_Store
+Thumbs.db
