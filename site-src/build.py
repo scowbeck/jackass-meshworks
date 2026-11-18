@@ -30,7 +30,7 @@ PLUGINS = [
         "intro": "CloneSensor places clones on a surface so they never occupy the same space. Each candidate is tested first: if the space is free, the clone is kept and that space is closed. If not, the candidate is thrown away. Nothing gets pushed apart afterward.",
         "status": "beta",
         "platforms": ["C4D"],
-        "beta_url": "https://github.com/scowbeck/jackass-meshworks/releases/tag/v1.0.0-beta",
+        "beta_url": "https://265069153872.gumroad.com/l/wznxwn",
         "beta_label": "Get the Free Beta",
         "requires": "Free beta · Version 1.0",
         "demo": {"mp4": "assets/clonesensor/clonesensor-demo.mp4", "poster": "assets/clonesensor/demo-poster.jpg", "controls": True},

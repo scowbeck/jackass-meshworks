@@ -6,7 +6,7 @@
 No movement. No jitter. No overlaps.</p>
 
 <p align="center">
-  <a href="https://github.com/scowbeck/jackass-meshworks/releases"><strong>Download the free beta</strong></a> ·
+  <a href="https://265069153872.gumroad.com/l/wznxwn"><strong>Download the free beta</strong></a> ·
   <a href="docs/CloneSensor-User-Guide.pdf">User guide (PDF)</a> ·
   <a href="https://github.com/scowbeck/jackass-meshworks/issues/new/choose">Report a bug</a> ·
   <a href="https://www.jackassmeshworks.com/clonesensor">Website</a>
@@ -54,7 +54,7 @@ The same seed, Max Count, settings and surface always produce the same clones. T
 
 ## Install
 
-1. Download the latest zip from **[Releases](https://github.com/scowbeck/jackass-meshworks/releases)** (under **Assets**, pick `CloneSensor-v1.0.0-beta.zip`, not the source code links).
+1. Get the free beta from **[Gumroad](https://265069153872.gumroad.com/l/wznxwn)**. It's free. You'll get `CloneSensor-v1.0.0-beta.zip`.
 2. Unzip it. You'll get a folder named **CloneSensor**.
 3. Put that folder in your Cinema 4D plugins folder. The easiest way to find it: in Cinema 4D, choose **Edit → Preferences**, click **Open Preferences Folder** at the bottom, and open the **plugins** folder there (create it if it doesn't exist).
    You can also keep the folder anywhere and add its location under **Edit → Preferences → Plugins**.
